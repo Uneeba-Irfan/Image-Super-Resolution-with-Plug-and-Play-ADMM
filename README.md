@@ -5,7 +5,7 @@ Natural Images dataset: https://www.kaggle.com/datasets/prasunroy/natural-images
 
 All Code files are in the scripts folder and contain the following:
 
-1.Image_denoising_results.ipynb:
+1. Image_denoising_results.ipynb:
 A Jupyter Notebook that contains the results of the image denoising experiments. This notebook includes code for loading images, applying denoising techniques, and visualizing the results.
 
 2. Turtles_images_denoiser_training_noise_0.05:
