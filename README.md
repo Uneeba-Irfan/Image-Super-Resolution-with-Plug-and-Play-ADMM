@@ -1,5 +1,23 @@
 # Image-Super-Resolution-with-Plug-and-Play
 
+This project explores different image reconstruction techniques, including denoising, deblurring, and image super-resolution. These techniques are applied
+to a Sea Turtles dataset. The primary objective was to implement the
+Plug-and-Play Alternating Direction Method of Multipliers (ADMM) framework
+for image super-resolution, by using different denoisers in the data
+fidelity step. An initial experiment was done to design a convolutional neural
+network (CNN) in an encoder-decoder style and train it as a denoiser on
+the Sea Turtles dataset. The model was then tested on the same dataset to
+assess its performance. Subsequently, the same CNN denoiser was trained
+on a natural images dataset and tested on the Sea Turtles dataset to compare
+generalization capabilities. Furthermore, a traditional total variation
+denoiser was also used to evaluate its effectiveness against the CNN-based
+denoisers. To identify the optimal approach the performance of these models
+was compared across various noise levels from 0.05-0.2. The DeepInverse library
+was used to facilitate the experiments and manage the reconstruction
+tasks, demonstrating that dataset-specific denoisers trained on targeted images,
+such as the Sea Turtles dataset, offer superior performance in denoising
+and super-resolution compared to generalized models.
+
 
 
 Turtle images dataset: https://www.kaggle.com/datasets/wildlifedatasets/seaturtleid2022
