@@ -18,6 +18,9 @@ tasks, demonstrating that dataset-specific denoisers trained on targeted images,
 such as the Sea Turtles dataset, offer superior performance in denoising
 and super-resolution compared to generalized models.
 
+![Workflow Diagram](images/denoising.png)
+
+![Workflow Diagram](images/pnp_results.png)
 
 
 Turtle images dataset: https://www.kaggle.com/datasets/wildlifedatasets/seaturtleid2022
